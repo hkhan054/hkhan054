@@ -21,13 +21,13 @@ export const NavigationBar = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                             <Nav>
-                            <Nav.Link href="/Projects">
+                            <Nav.Link href="/hkhan054/Projects">
                             <div>Projects</div>
                             </Nav.Link>
                             {/* <Nav.Link href="/Skills">
                             <div>Skills</div>
                             </Nav.Link> */}
-                            <Nav.Link href="/About">
+                            <Nav.Link href="/hkhan054/About">
                             <div>About</div>
                             </Nav.Link>
                             <a
@@ -37,7 +37,7 @@ export const NavigationBar = () => {
                             >
                             Resume
                             </a>
-                            <Nav.Link href="/Contact">
+                            <Nav.Link href="/hkhan054/Contact">
                             <div>Contact</div>
                             </Nav.Link>
                             </Nav>
