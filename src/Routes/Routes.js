@@ -11,10 +11,10 @@ export const ProjectRoutes = React.memo(() => {
         <BrowserRouter>
             <Routes>
                 <Route index path="/hkhan054" element={<HomePage />} />
-                <Route index path="/Contact" element={<Contact />} />
-                <Route index path="/About" element={<About />} />
-                <Route index path="/Projects" element={<Projects/>} />
-                <Route index path="/KnowledgeHome" element={<ProjectLinks/>} />
+                <Route index path="/hkhan054/Contact" element={<Contact />} />
+                <Route index path="/hkhan054/About" element={<About />} />
+                <Route index path="/hkhan054/Projects" element={<Projects/>} />
+                <Route index path="/hkhan054/KnowledgeHome" element={<ProjectLinks/>} />
             </Routes>
         </BrowserRouter>
     );
