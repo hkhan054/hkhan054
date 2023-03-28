@@ -8,7 +8,7 @@ import {ProjectLinks} from "../Components/ProjectLinks/ProjecctLinks";
 
 export const ProjectRoutes = React.memo(() => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/hkhan054">
             <Routes>
                 <Route index path="/hkhan054" element={<HomePage />} />
                 <Route index path="/hkhan054/Contact" element={<Contact />} />
