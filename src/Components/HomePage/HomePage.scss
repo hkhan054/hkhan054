@@ -1,0 +1,63 @@
+.HomePage{
+    width: 100vw; 
+    height: 100vh; 
+    position:relative;
+    justify-content: center;
+    .text{
+        color: #CED9DF;
+        
+    }
+    .text:hover{
+        color: #091008;
+            background-color: #93A889;
+            cursor: default;
+    }
+    .text1{
+        color: #CED9DF;
+        
+    }
+    .text1:hover{
+            color: #091008;
+            background-color: #CED9DF;
+            cursor: default;
+        }
+    .text2{
+        color: #CED9DF;
+        
+    }
+    .text2:hover{
+            color: #091008;
+            background-color: #7993A0;
+            cursor: default;
+        }
+
+    .text3{
+            color: #CED9DF;
+            
+    }
+    .text3:hover{
+                color: #091008;
+                background-color: #C8EFB5;
+                cursor: default;
+    }
+    .text4{
+        color: #CED9DF;
+        
+}
+.text4:hover{
+            color: #091008;
+            background-color: #459AC5;
+            cursor: default;
+}
+.textContent{
+    margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 80%;
+        text-align:"center"
+}
+
+}

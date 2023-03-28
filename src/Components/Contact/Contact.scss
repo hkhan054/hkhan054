@@ -1,0 +1,76 @@
+.contact {
+    height: 100%;
+    width: 100%;
+    .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100px;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    }
+    @media (min-width: 1024px) {
+    .contact {
+    height: calc(100vh - 112px);
+    display: flex;
+    }
+    .leftPannel {
+    background: rgba(209, 232, 226, 0.23);
+    height: calc(100vh - 112px);
+    width: 33%;
+    .leftContent {
+    background-color: rgba(9, 16, 8, 0.4);
+    height: 100%;
+    width: 80%;
+    padding: 40px;
+    .infoBundle {
+    display: flex;
+    padding-bottom: 15px;
+    }
+    .contactText {
+    padding-right: 30px;
+    }
+    }
+    }
+    .rightPannel {
+        height: calc(100vh - 112px);
+        width: 77%;
+        position: relative;
+        .form{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
+            width: 50%;
+            background-color: #CED9DF;
+            border-radius: 5px;
+            padding: 10px;
+            color: #081616;
+            .input{
+                width: 100%;
+                background-color: transparent;
+                border: 2px solid #081616;
+                border-radius: 5px;
+            }
+            textarea:focus, input:focus{
+                outline: none;
+            }
+        }
+        
+    }
+    .button{
+        background-color: transparent;
+        border: 2px solid #081616;
+        border-radius: 5px;
+        color: #081616;
+    }
+    .buttonContainer{
+        margin-left: auto; 
+        margin-right: 0;
+        width: 100%;
+    }
+}

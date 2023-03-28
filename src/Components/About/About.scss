@@ -1,0 +1,18 @@
+.about {
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    justify-content: center;
+    .content {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 80%;
+    .titleBorder {
+        border-bottom: 3px solid rgba(147, 168, 137, 0.53);
+    }
+    }
+    }
