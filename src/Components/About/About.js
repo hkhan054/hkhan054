@@ -27,7 +27,8 @@ return (
             <Col></Col>
             </Row>
             <Row style={{ marginTop: "20px", marginBottom: "30px" }}>
-            Hello World! I’m Ashra Taslima, a Full Stack Developer. From
+            Hello World! I’m Hassan Khan, a Full Stack Developer and UI/UX Designer. 
+            From
             microscopic organisms under the microscope to lines of code on a
             web page, I love navigating through the multiverses of logic and
             creative design to make materful eye-catiching, accessible and
@@ -37,8 +38,8 @@ return (
             follows. The move towards increasing inclusivity and diversity
             in the industry through representation is of upmost importance
             to me. If you are in need of an innovative, task-driven
-            professional with 6+ years of expereince in web desing and
-            developement I am your gal to call.
+            professional with 4+ years of expereince in web desing and
+            developement I am your guy to call.
             </Row>
             </Col>
             <Col sx md>

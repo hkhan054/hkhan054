@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { ProjectRoutes } from "../../Routes/Routes";
+import CV from "../../Assets/resume.pdf"
 
 export const NavigationBar = () => {
     return (
@@ -30,8 +31,8 @@ export const NavigationBar = () => {
                             <div>About</div>
                             </Nav.Link>
                             <a
-                            download="AshraTaslimaCV.docx"
-                            // href={CV}
+                            download="HassanCV.pdf"
+                            href={CV}
                             className="nav-link"
                             >
                             Resume
