@@ -45,7 +45,7 @@ export const NavigationBar = () => {
                     </Container>
                 </Navbar>
             </div>
-            <ProjectRoutes />
+            {/* <ProjectRoutes /> */}
         </div>
     )
 }
