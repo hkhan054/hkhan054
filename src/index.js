@@ -5,6 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import  {HashRouter}  from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Contact } from "../src/Components/Contact/Contact";
+import { HomePage } from "../src/Components/HomePage/HomePage";
+import { About } from "../src/Components/About/About";
+import { Projects } from "../src/Components/Projects/Projects";
+import {ProjectLinks} from "../src/Components/ProjectLinks/ProjecctLinks";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
