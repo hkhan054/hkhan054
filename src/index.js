@@ -15,15 +15,8 @@ import {ProjectLinks} from "../src/Components/ProjectLinks/ProjecctLinks";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basename="/hkhan054">
+    <HashRouter>
     <App />
-    <Routes>
-                <Route index path="/hkhan054" element={<HomePage />} />
-                <Route index path="/hkhan054/Contact" element={<Contact />} />
-                <Route index path="/hkhan054/About" element={<About />} />
-                <Route index path="/hkhan054/Projects" element={<Projects/>} />
-                <Route index path="/KnowledgeHome" element={<ProjectLinks/>} />
-            </Routes>
     </HashRouter>
   </React.StrictMode>
 );
