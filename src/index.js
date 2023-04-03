@@ -11,7 +11,7 @@ import { HomePage } from "../src/Components/HomePage/HomePage";
 import { About } from "../src/Components/About/About";
 import { Projects } from "../src/Components/Projects/Projects";
 import {ProjectLinks} from "../src/Components/ProjectLinks/ProjecctLinks";
-
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()"></meta>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
