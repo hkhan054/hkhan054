@@ -15,7 +15,7 @@ export const NavigationBar = () => {
             <div className="Navbar">
                 <Navbar className="navContainer" expand="lg">
                     <Container>
-                        <Navbar.Brand href="/hkhan054">
+                        <Navbar.Brand href="/">
                             <img src={Logo} alt="Hassan Khan" width={"80%"}/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
