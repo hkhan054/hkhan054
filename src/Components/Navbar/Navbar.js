@@ -15,19 +15,19 @@ export const NavigationBar = () => {
             <div className="Navbar">
                 <Navbar className="navContainer" expand="lg">
                     <Container>
-                        <Navbar.Brand href="/hkhan054">
+                        <Navbar.Brand href="/">
                             <img src={Logo} alt="Hassan Khan" width={"80%"}/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                             <Nav>
-                            <Nav.Link href="/hkhan054/Projects">
+                            <Nav.Link href="/#/Projects">
                             <div>Projects</div>
                             </Nav.Link>
                             {/* <Nav.Link href="/Skills">
                             <div>Skills</div>
                             </Nav.Link> */}
-                            <Nav.Link href="/hkhan054/About">
+                            <Nav.Link href="/#/About">
                             <div>About</div>
                             </Nav.Link>
                             <a
@@ -37,7 +37,7 @@ export const NavigationBar = () => {
                             >
                             Resume
                             </a>
-                            <Nav.Link href="/hkhan054/Contact">
+                            <Nav.Link href="/#/Contact">
                             <div>Contact</div>
                             </Nav.Link>
                             </Nav>

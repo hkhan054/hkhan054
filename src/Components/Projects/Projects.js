@@ -32,7 +32,7 @@ export const Projects = () => {
                                 customer interactions.  
                                 </Card.Text>
                                 <div className="col text-center">
-                                    <Button variant="light" href="/KnowledgeHome">Learn More</Button>
+                                    <Button variant="light" href="/#/KnowledgeHome">Learn More</Button>
                                 </div>
                                 
                             </Card.Body>
