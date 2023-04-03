@@ -10,7 +10,7 @@ export const ProjectRoutes = React.memo(() => {
     return (
         <HashRouter>
             <Routes>
-                <Route exact path="/" element={<HomePage />} />
+                <Route exact path="/hkhan054" element={<HomePage />} />
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/Projects" element={<Projects/>} />
